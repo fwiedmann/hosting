@@ -1,2 +1,12 @@
-# hosting
-Awesome list about hosting providers for your next web app
+# Awesome hosting list
+
+This list is for everyone who wants to deploy an web application + backend on a budget.
+
+Please feel free to contribute if you know any alternatives compared to the hosting providers below.
+
+| Provider                                             | Costs | vCPU           | Memory GB | Storage                             | Bandwidth                 | IP        | Snapshots                                             | Backup                                                        | Locations             | Extras                                                | Cons                                              |
+| ---------------------------------------------------- | ----- | -------------- | --------- | ----------------------------------- | ------------------------- | --------- | ----------------------------------------------------- | ------------------------------------------------------------- | --------------------- | ----------------------------------------------------- | ------------------------------------------------- |
+| [Hetzner Cloud CX11](https://www.hetzner.com/cloud)  | 4.15€ | 1 (Intel)      | 2         | 20 TB                               | 20 TB (1.19€ per add. TB) |           | Manual snaptshots: 0.0119€/GB = 0.238€/ 20GB Snapshot | up to automatically 7 Backups: 20% of instance price  = 0.83€ | Germany, Finland      | Free firewall rules                                   |                                                   |
+| [Hetzner Cloud CPX11](https://www.hetzner.com/cloud) | 4.75€ | 2 (AMD)        | 2         | 40 TB                               | 20 TB (1.19€ per add. TB) |           | Manual snaptshots: 0.0119€/GB = 0.238€/ 40GB Snapshot | up to automatically 7 Backups: 20% of instance price  = 0.95€ | Germany, Finland, USA | Free firewall rules                                   |                                                   |
+| [Hetzner Cloud CX11](https://www.hetzner.com/cloud)  | 5.83€ | 2 (Intel)      | 4         | 40 TB                               | 20 TB (1.19€ per add. TB) |           | Manual snaptshots: 0.0119€/GB = 0.476€/ 40GB Snapshot | up to automatically 7 Backups: 20% of instance price  = 0.95€ | Germany, Finland      | Free firewall rules                                   |                                                   |
+| [user space](https://uberspace.de/)                  | 5€    | "A fair slice" | 1.5       | 10TB free, Each 10GB/3€ up to 100GB |                           | Shared IP |                                                       | Free. Daily backups keep for 7 days, weekly for 7 weeks       |                       | Free SSL, SetUp DBs, Webservers, Web Backends via CLI | No real VM, no docker install, package management |
